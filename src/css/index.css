@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+body {
+  background-color: #001427;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+}
+
+.semiwrap {
+  background-color: #da667b;
+  height: 50vh;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.centered-content {
+  width: 65%;
+  height: 70vh;
+  display: flex;
+
+  justify-content: space-evenly;
+}
+.text-grid {
+  height: fit-content;
+}
+.openingText {
+  font-family: "Hurricane", cursive;
+  font-size: 90px;
+  color: #ffe2fe;
+  justify-self: center;
+  margin: 0;
+}
+.mainText {
+  font-family: "Bebas Neue", cursive;
+  color: black;
+  font-size: 50px;
+  width: 500px;
+}
+
+h3 {
+  margin-top: 0;
+}
+.info {
+  color: white;
+}
+.foto_perfil {
+  border-radius: 50%;
+  width: 350px;
+  margin-top: 40px;
+}
